@@ -1,0 +1,746 @@
+
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="description"
+        content="Chicken Mart — fresh halal chicken parts delivered across Nairobi.">
+
+    <title>Products | Chicken Mart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+      <!-- TOP BAR -->
+    <div class="topbar">
+
+        <span>
+            Fresh • Quality • Halal
+        </span>
+
+         <span class="delivery-info">
+        <img src="img/delivery.png" alt="Delivery truck">
+        Fast delivery across Nairobi
+    </span>
+
+    </div>
+
+
+    <!-- HEADER -->
+    <header class="header">
+        <div class="container header-inner">
+
+            <a class="brand" href="index.html">
+                <img src="img/logo.jpg" alt="chicken mart logo">
+
+               
+            </a>
+
+            <button class="menu-toggle">☰</button>
+
+            <nav class="nav">
+                <a href="index.html">Home</a>
+                <a href="about.html">About Us</a>
+                <a class="active" href="products.html">Products</a>
+                <a href="areas.html">Areas We Serve</a>
+                <a href="reviews.html">Reviews</a>
+                <a href="faq.html">FAQ</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+<!-- HEADER CART -->
+<button
+    type="button"
+    class="header-cart"
+    data-cart-open
+    aria-label="Open shopping cart"
+>
+    <img src="img/cart.png" alt="Cart">
+    <span class="header-cart-count cart-count">0</span>
+</button>
+          
+        </div>
+    </header>
+
+
+    <!-- MAIN CONTENT -->
+    <main>
+
+        <!-- PAGE HERO -->
+        <section class="page-hero">
+            <div class="container">
+
+                <span class="label">OUR PRODUCTS</span>
+
+                <h1>
+                    Fresh Cuts.
+                    <span>Great Prices.</span>
+                </h1>
+
+                <p>
+                    Select your chicken parts and quantities,
+                    then send one complete order to WhatsApp.
+                </p>
+
+            </div>
+        </section>
+
+
+        <!-- PRODUCTS SECTION -->
+        <section class="section">
+
+            <div class="container">
+
+                <!-- TOOLBAR -->
+                <div class="toolbar">
+
+                    <div>
+                        <b>Chicken Catalogue</b>
+
+                        <small style="display:block; color:var(--m);">
+                            Prices shown per kilogram
+                        </small>
+                    </div>
+
+                    <input
+                        id="search"
+                        class="search"
+                        type="text"
+                        placeholder="Search chicken parts..."
+                    >
+
+                </div>
+
+
+                 <!-- PRODUCT LIST -->
+                <div class="product-grid">
+
+
+                    <!-- CHICKEN WINGS -->
+                    <article
+                        class="product"
+                        data-name="Chicken Wings"
+                        data-price="400"
+                    >
+
+                        <img
+                            src="img/wings.jpg"
+                            alt="Chicken Wings"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Chicken Wings</h3>
+
+                            <div class="price">
+                                KES 400/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Wings"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- DRUMSTICKS -->
+                    <article
+                        class="product"
+                        data-name="Chicken Drumsticks"
+                        data-price="540"
+                    >
+
+                        <img
+                            src="img/chicken-drumsticks.jpg"
+                            alt="Chicken Drumsticks"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Chicken Drumsticks</h3>
+
+                            <div class="price">
+                                KES 540/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Drumsticks"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHICKEN THIGHS -->
+                    <article
+                        class="product"
+                        data-name="Chicken Thighs"
+                        data-price="300"
+                    >
+
+                        <img
+                            src="img/thighs.jpg"
+                            alt="Chicken Thighs"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Chicken Thighs</h3>
+
+                            <div class="price">
+                                KES 300/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Thighs"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- BREAST FILLETS -->
+                    <article
+                        class="product"
+                        data-name="Breast Boneless"
+                        data-price="550"
+                    >
+
+                        <img
+                            src="img/boneless.jpg"
+                            alt="Breast Fillets"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Breast Boneless</h3>
+
+                            <div class="price">
+                                KES 550/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Breast Fillets"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHICKEN LIVER -->
+                    <article
+                        class="product"
+                        data-name="Chicken Liver"
+                        data-price="250"
+                    >
+
+                        <img
+                            src="img/liver.jpeg"
+                            alt="Chicken Liver"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Chicken Liver</h3>
+
+                            <div class="price">
+                                KES 250/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Liver"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- CHICKEN GIZZARDS -->
+                    <article
+                        class="product"
+                        data-name="Chicken Gizzards"
+                        data-price="400"
+                    >
+
+                        <img
+                            src="img/gizzards.jpg"
+                            alt="Chicken Gizzards"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Chicken Gizzards</h3>
+
+                            <div class="price">
+                                KES 400/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Gizzards"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+ <!-- THIGH BONELESS -->
+                    <article
+                        class="product"
+                        data-name="Thigh Boneless"
+                        data-price="540"
+                    >
+
+                        <img
+                            src="img/thigh boneless.jfif"
+                            alt="Whole Chicken"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Thigh Boneless</h3>
+
+                            <div class="price">
+                                KES 540/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+                            <button
+                                class="quick"
+                                data-product-wa="Whole Chicken"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                    <!-- CHICKEN FEET -->
+                    <article
+                        class="product"
+                        data-name="Chicken Feet"
+                        data-price="180"
+                    >
+
+                        <img
+                            src="img/feet.jpg"
+                            alt="Chicken Feet"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Big legs</h3>
+
+                            <div class="price">
+                                KES 450/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+
+                            <button
+                                class="quick"
+                                data-product-wa="Chicken Feet"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- WHOLE CHICKEN -->
+                    <article
+                        class="product"
+                        data-name="Whole Chicken"
+                        data-price="450"
+                    >
+
+                        <img
+                            src="img/whole chicken.jpg"
+                            alt="Whole Chicken"
+                        >
+
+                        <div class="product-body">
+
+                            <h3>Whole Chicken</h3>
+
+                            <div class="price">
+                                KES 450/kg
+                            </div>
+
+                            <div class="controls">
+
+                                <input
+                                    class="qty"
+                                    type="number"
+                                    min="1"
+                                    value="1"
+                                >
+
+                                <button class="add" data-add>
+                                    Add to Order
+                                </button>
+
+                            </div>
+                            <button
+                                class="quick"
+                                data-product-wa="Whole Chicken"
+                            >
+                                Quick WhatsApp Order
+                            </button>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+<!-- CART BAR -->
+<div class="cartbar" data-cart-open>
+    <div class="cart-summary">
+        <img src="img/cart.png" alt="Cart" class="cart-icon">
+        <span>
+            <b class="cart-count">0</b>
+            items
+        </span>
+    </div>
+
+    <button type="button" class="cart-view-btn">
+        View Cart
+    </button>
+</div>
+
+<!-- CART MODAL -->
+<div class="cart-modal" id="cartModal" aria-hidden="true">
+
+    <div class="cart-overlay" data-cart-close></div>
+
+    <div class="cart-panel">
+
+        <div class="cart-header">
+
+            <div>
+                <span class="cart-label">YOUR ORDER</span>
+                <h2>Shopping Cart</h2>
+            </div>
+
+            <button
+                type="button"
+                class="cart-close"
+                data-cart-close
+                aria-label="Close cart">
+                ×
+            </button>
+
+        </div>
+
+        <div class="cart-items" id="cartItems">
+            <!-- Items inserted by JavaScript -->
+        </div>
+
+        <div class="cart-empty" id="cartEmpty">
+            <img src="img/cart.png" alt="Empty cart">
+            <h3>Your cart is empty</h3>
+            <p>Add some chicken products to your order.</p>
+
+            <button type="button" data-cart-close>
+                Continue Shopping
+            </button>
+        </div>
+
+        <div class="cart-footer" id="cartFooter">
+
+            <div class="cart-total-row">
+                <span>Estimated Total</span>
+                <strong id="cartTotal">KES 0</strong>
+            </div>
+
+            <p class="cart-note">
+                Final price and delivery charges will be confirmed on WhatsApp.
+            </p>
+
+            <div class="cart-actions">
+
+                <button
+                    type="button"
+                    class="continue-shopping"
+                    data-cart-close>
+                    Continue Shopping
+                </button>
+
+                <button
+                    type="button"
+                    class="cart-whatsapp"
+                    data-cart-send>
+                    Send Order on WhatsApp
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</div>
+
+
+        <!-- SEARCH SCRIPT -->
+        <script>
+            document
+                .querySelector("#search")
+                .addEventListener("input", function () {
+
+                    let q = this.value.toLowerCase();
+
+                    document
+                        .querySelectorAll(".product")
+                        .forEach(function (card) {
+
+                            card.style.display =
+                                card.dataset.name
+                                    .toLowerCase()
+                                    .includes(q)
+                                    ? ""
+                                    : "none";
+
+                        });
+
+                });
+        </script>
+
+    </main>
+
+
+    <!-- =========================
+     FOOTER
+========================== -->
+<footer>
+
+    <div class="container footer-main">
+
+        <a
+            class="brand"
+            href="index.html"
+        >
+            <img
+                src="img/logo white.png"
+                alt="Favor logo"
+            >
+        </a>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="areas.html">Areas</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+        <!-- SOCIAL MEDIA -->
+        <div class="social">
+
+            <a href="#" aria-label="Facebook">
+                <img
+                    src="img/fb white.png"
+                    alt="Facebook"
+                >
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <img
+                    src="img/insta1.png"
+                    alt="Instagram"
+                >
+            </a>
+
+            <a href="#" aria-label="YouTube">
+                <img
+                    src="img/yout2.png"
+                    alt="YouTube"
+                >
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="container footer-bottom">
+
+        © 2026 T Nyairo Digital Solutions.
+        All rights reserved.
+
+    </div>
+
+</footer>
+
+   <!-- FLOATING WHATSAPP -->
+<a
+    class="floating"
+    data-wa="chat"
+    href="#"
+>
+    <img src="img/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+    <span>Chat with us</span>
+</a>
+
+<div class="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

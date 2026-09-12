@@ -1,0 +1,1 @@
+Put the business images here using the filenames listed in README.md.

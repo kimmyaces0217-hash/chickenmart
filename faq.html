@@ -1,0 +1,492 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta
+        name="description"
+        content="Favor Farm Fresh Chicken — fresh halal chicken parts delivered across Nairobi."
+    >
+
+    <title>FAQ | Chicken Mart</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+     <!-- =========================
+         TOP BAR
+    ========================== -->
+
+    <div class="topbar">
+
+        <span>
+            Fresh • Quality • Halal
+        </span>
+
+         <span class="delivery-info">
+        <img src="img/delivery.png" alt="Delivery truck">
+        Fast delivery across Nairobi
+    </span>
+
+    </div>
+
+
+    <!-- =========================================================
+         HEADER
+    ========================================================== -->
+
+    <header class="header">
+
+        <div class="container header-inner">
+
+            <a class="brand" href="index.html">
+
+                <img
+                    src="img/logo.jpg"
+                    alt="Favor logo"
+                >
+
+                
+
+            </a>
+
+
+            <button class="menu-toggle">
+                ☰
+            </button>
+
+
+            <nav class="nav">
+
+                <a class="" href="index.html">
+                    Home
+                </a>
+
+                <a class="" href="about.html">
+                    About Us
+                </a>
+
+                <a class="" href="products.html">
+                    Products
+                </a>
+
+                <a class="" href="areas.html">
+                    Areas We Serve
+                </a>
+
+                <a class="" href="reviews.html">
+                    Reviews
+                </a>
+
+                <a class="active" href="faq.html">
+                    FAQ
+                </a>
+
+                <a class="" href="contact.html">
+                    Contact
+                </a>
+
+            </nav>
+
+
+         
+<!-- HEADER CART -->
+<button
+    type="button"
+    class="header-cart"
+    data-cart-open
+    aria-label="Open shopping cart"
+>
+    <img src="img/cart.png" alt="Cart">
+    <span class="header-cart-count cart-count">0</span>
+</button>
+
+        
+
+
+        </div>
+
+    </header>
+
+
+    <!-- =========================================================
+         MAIN CONTENT
+    ========================================================== -->
+
+    <main>
+
+
+        <!-- =====================================================
+             PAGE HERO
+        ====================================================== -->
+
+        <section class="page-hero">
+
+            <div class="container">
+
+                <span class="label">
+                    FAQ
+                </span>
+
+                <h1>
+                    Frequently Asked
+                    <span>Questions.</span>
+                </h1>
+
+                <p>
+                    Quick answers about chicken, halal assurance,
+                    delivery, branches and ordering.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             FAQ SECTION
+        ====================================================== -->
+
+        <section class="section">
+
+            <div class="container">
+
+                <div class="faq-list">
+
+
+                    <details>
+
+                        <summary>
+                            Is your chicken halal certified?
+                        </summary>
+
+                        <p>
+                            Yes. Favor Farm Fresh Chicken is presented
+                            as a halal chicken business. Keep the official
+                            halal certification documentation and badge
+                            details current on the live website.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Do you deliver anywhere in Nairobi?
+                        </summary>
+
+                        <p>
+                            We serve many Nairobi neighbourhoods.
+                            Delivery availability and charges can depend
+                            on location and order size.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            What are your delivery charges?
+                        </summary>
+
+                        <p>
+                            Delivery charges depend on your location
+                            and order size. WhatsApp us for an exact quote.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can I make a bulk order?
+                        </summary>
+
+                        <p>
+                            Yes. We accept household, restaurant,
+                            hotel and other bulk orders.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            How do I place an order?
+                        </summary>
+
+                        <p>
+                            Go to Products, add the parts and quantities
+                            you want, then click Send Order on WhatsApp.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can I order specific chicken parts?
+                        </summary>
+
+                        <p>
+                            Yes. The catalogue is designed around
+                            individual chicken parts so customers can
+                            order only what they need.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            Can I order for a restaurant or hotel?
+                        </summary>
+
+                        <p>
+                            Yes. Contact us to discuss recurring supply,
+                            bulk quantities and delivery arrangements.
+                        </p>
+
+                    </details>
+
+
+                    <details>
+
+                        <summary>
+                            How do I find my nearest branch?
+                        </summary>
+
+                        <p>
+                            Visit Areas We Serve for the current branch
+                            list or WhatsApp us with your location.
+                        </p>
+
+                    </details>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =====================================================
+             CONTACT / HELP SECTION
+        ====================================================== -->
+
+        <section class="section alt">
+
+            <div class="container center">
+
+                <span class="label">
+                    STILL NEED HELP?
+                </span>
+
+                <h2>
+                    Chat directly with
+                    <span>our team.</span>
+                </h2>
+
+                <br>
+
+                <a
+                    class="btn red"
+                    data-wa="chat"
+                    href="#"
+                >
+                    Chat on WhatsApp
+                </a>
+
+            </div>
+
+        </section>
+
+
+     </main>
+
+
+    <!-- CART MODAL -->
+    <div class="cart-modal" id="cartModal" aria-hidden="true">
+
+        <div class="cart-overlay" data-cart-close></div>
+
+        <div class="cart-panel">
+
+            <div class="cart-header">
+
+                <div>
+                    <span class="cart-label">YOUR ORDER</span>
+                    <h2>Shopping Cart</h2>
+                </div>
+
+                <button
+                    type="button"
+                    class="cart-close"
+                    data-cart-close
+                    aria-label="Close cart">
+                    ×
+                </button>
+
+            </div>
+
+            <div class="cart-items" id="cartItems">
+                <!-- Items inserted by JavaScript -->
+            </div>
+
+            <div class="cart-empty" id="cartEmpty">
+
+                <img src="img/cart.png" alt="Empty cart">
+
+                <h3>Your cart is empty</h3>
+
+                <p>
+                    Add some chicken products to your order.
+                </p>
+
+                <button
+                    type="button"
+                    data-cart-close>
+                    Continue Shopping
+                </button>
+
+            </div>
+
+            <div class="cart-footer" id="cartFooter">
+
+                <div class="cart-total-row">
+
+                    <span>
+                        Estimated Total
+                    </span>
+
+                    <strong id="cartTotal">
+                        KES 0
+                    </strong>
+
+                </div>
+
+                <p class="cart-note">
+                    Final price and delivery charges will be confirmed on WhatsApp.
+                </p>
+
+                <div class="cart-actions">
+
+                   <a
+    href="products.html"
+    class="continue-shopping">
+    Continue Shopping
+</a>
+
+                    <button
+                        type="button"
+                        class="cart-whatsapp"
+                        data-cart-send>
+                        Send Order on WhatsApp
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+     <!-- =========================
+     FOOTER
+========================== -->
+<footer>
+
+    <div class="container footer-main">
+
+        <a
+            class="brand"
+            href="index.html"
+        >
+            <img
+                src="img/logo white.png"
+                alt="Favor logo"
+            >
+        </a>
+
+
+        <div class="footer-links">
+
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="products.html">Products</a>
+            <a href="areas.html">Areas</a>
+            <a href="faq.html">FAQ</a>
+            <a href="contact.html">Contact</a>
+
+        </div>
+
+
+           <!-- SOCIAL MEDIA -->
+        <div class="social">
+
+            <a href="#" aria-label="Facebook">
+                <img
+                    src="img/fb white.png"
+                    alt="Facebook"
+                >
+            </a>
+
+            <a href="#" aria-label="Instagram">
+                <img
+                    src="img/insta1.png"
+                    alt="Instagram"
+                >
+            </a>
+
+            <a href="#" aria-label="YouTube">
+                <img
+                    src="img/yout2.png"
+                    alt="YouTube"
+                >
+            </a>
+
+        </div>
+
+    </div>
+
+    <div class="container footer-bottom">
+
+        © 2026 T Nyairo Digital Solutions.
+        All rights reserved.
+
+    </div>
+
+</footer>
+
+
+     <!-- FLOATING WHATSAPP -->
+<a
+    class="floating"
+    data-wa="chat"
+    href="#"
+>
+    <img src="img/whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+    <span>Chat with us</span>
+</a>
+
+<div class="toast"></div>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
